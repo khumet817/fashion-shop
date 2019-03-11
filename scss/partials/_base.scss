@@ -1,0 +1,37 @@
+// Base Styles
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    background: #2d2827;
+    color: #999999;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+nav {
+    
+}
+
+// Text
+
+// Lists
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
