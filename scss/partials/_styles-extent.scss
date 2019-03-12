@@ -1,16 +1,52 @@
 // Home Section Styles
 .home {
-    background: url(../img/home/home-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background: url(../img/home/home-2.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    background-color: #666666;
+    color: #fffefe;
     height: 94vh;
 }
 
 .logoName {
-  width: 117px;
-  height: 21px;
-  font-family: Dosis;
-  font-size: 30px;
-  font-weight: 600;
-  color: #fffefe;
+    font-family: Dosis;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 30px;
+}
+
+// Main Section
+.lineHeading {
+    width: 30px;
+    background: #a88d7b;
+}
+
+// Product Section Styles
+.myProducts {
+    background: #f5f5f5;
+}
+
+.product {
+    width: 360px;
+    height: 310px;
+    background-color: #666666;
+}
+
+.price {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+}
+
+// Collection Section Styles
+.collection {
+    width: 570px;
+    height: 370px;
+    background-color: #666666;
 }

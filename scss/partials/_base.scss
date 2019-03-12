@@ -17,14 +17,79 @@ header {
     height: 20px;
     text-align: center;
     font-size: 12px;
+    font-family: 'Dosis', sans-serif;
     padding: 10px;
 }
 
 nav {
-    
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 25px 0;
+
+    a {
+        padding: 0 25px;
+        text-decoration: none;
+        color: white;
+    }
 }
 
 // Text
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.92;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #a88d7b;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 150px;
+    font-size: 13px;
+}
 
 // Lists
 ul {
