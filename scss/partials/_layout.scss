@@ -1,3 +1,8 @@
+header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 // Product Section Styles
 .product-container {
     display: grid;
@@ -7,7 +12,66 @@
     padding: 20px 150px;
 }
 
+// New Collection Section Styles
 .collection-container {
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: auto auto;
+    padding: 20px 150px;
+}
+
+// Extra Item Section
+.extraExtra-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 620px auto;
+    background-color: #666666;
+    padding: 90px;
+}
+
+// Our Blog Section
+.blog-container {
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: auto auto;
+    padding: 20px 150px;
+}
+
+// Footer
+footer {
+    display: grid;
+    grid-gap: 10px;
+
+    // grid-template-columns: auto 200px 200px auto;
+    grid-template-rows: auto auto;
+}
+
+.footer-info {
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-columns: auto 200px 200px auto;
+}
+
+.widget-container {
+    display: grid;
+    grid-gap: 5px;
+
+    grid-template-columns: auto auto auto;
+}
+
+// --------------------------------------------------------------------------------------------------------
+// OTHER HEADER
+.other-header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+// --------------------------------------------------------------------------------------------------------
+// ABOUT PAGE
+
+.about-container {
     display: grid;
     grid-gap: 20px;
 
