@@ -43,6 +43,7 @@ header {
 footer {
     display: grid;
     grid-gap: 10px;
+    height: auto;
 
     // grid-template-columns: auto 200px 200px auto;
     grid-template-rows: auto auto;
@@ -52,14 +53,15 @@ footer {
     display: grid;
     grid-gap: 10px;
 
-    grid-template-columns: auto 200px 200px auto;
+    grid-template-columns: auto 150px 150px auto;
+    padding: 50px 150px;
 }
 
 .widget-container {
     display: grid;
     grid-gap: 5px;
 
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 
 // --------------------------------------------------------------------------------------------------------
@@ -68,6 +70,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
 // --------------------------------------------------------------------------------------------------------
 // ABOUT PAGE
 
@@ -85,4 +88,12 @@ footer {
 
     grid-template-columns: auto auto auto auto;
     padding: 50px 150px;
+}
+
+// -----------------------------------------------------------------------------------------------------------
+// CONTACT PAGE
+.contact-info-container {
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
 }

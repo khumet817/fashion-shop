@@ -33,6 +33,19 @@ nav {
 
 footer {
     background-color: #2d2827;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding-left: 0;
+        
+        li {
+            display: list-item;
+            color: #999999;
+            padding: 10px 0;
+        }
+    }
 }
 
 // Text
@@ -102,7 +115,7 @@ h5 {
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 0 150px;
+    // padding: 0 150px;
     font-size: 13px;
 }
 
@@ -114,4 +127,5 @@ ul {
 
 li {
     display: inline;
+    padding: 0 5px;
 }

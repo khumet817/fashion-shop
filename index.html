@@ -16,7 +16,7 @@
 <body>
     <!-- HEADER -->
     <header>
-        <section>
+        <section id="home">
             <ul>
                 <li>
                     EN <i class="fas fa-chevron-down"></i>
@@ -41,12 +41,13 @@
 
 
     <!-- Start of Home with nav bar and intro text -->
-    <section class="home">
+    <!-- HERO -->
+    <section class="home-hero">
         <nav>
             <ul>
                 <li><span class="lnr lnr-magnifier"></span></li>
                 <li>
-                    <a href="#">HOME</a>
+                    <a href="#home">HOME</a>
                 </li>
                 <li>
                     <a href="#">SHOP</a>
@@ -55,7 +56,8 @@
                     <a href="#">ABOUT</a>
                 </li>
                 <li class="logoName">
-                    N A T E B
+                    <!-- <img src="img/logo/nateb-logo-light.png" alt="N A T E B logo" class="logoName"> -->
+                    <a href="#home">N A T E B</a>
                 </li>
                 <li>
                     <a href="#">BLOG</a>
@@ -69,19 +71,28 @@
                 <li><i class="fas fa-shopping-cart"></i></li>
             </ul>
         </nav>
-
-        <h1>FASHION SHOP</h1>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit, impedit assumenda vero, alias suscipit non dolore unde commodi facilis delectus ducimus quos perspiciatis? Reiciendis at minima corporis accusantium voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis distinctio, odio veniam, quibusdam possimus perspiciatis hic ducimus magni voluptate repellat. Quia laudantium voluptates corporis id quis vitae odio officia?
-        </p>
-
-        <button class="buttonLookbook">
-            LOOK BOOK
-        </button>
-
-        <section>
-            <span class="lnr lnr-chevron-down"></span>
+    
+        <section class="hero-text">
+            <h1>TRAINING AGAIN? TRAIN WITH THE BEST FITNESS CLOTHES</h1>
+    
+            <p class="home-text">
+                <p>
+                    Fitness is not about being better than someone else. It's about being better than you used to be. Do something today that your future self will thank you for. When you feel like quitting, think about why you started.
+                </p>
+                
+                <p>
+                    "I hate every minute of training, But I said, don't quit. Suffer now and live the rest of your life as a champion."
+                    <em> - Muhammad Ali</em>
+                </p>
+            </p>
+    
+            <button class="buttonLookbook">
+                LOOK BOOK
+            </button>
+    
+            <section>
+                <span class="lnr lnr-chevron-down"></span>
+            </section>
         </section>
     </section>
     <!-- End of home -->
@@ -205,9 +216,11 @@
     <footer>
         <section class="footer-info">
             <section>
-                <section class="footerLogo">N A T E B</section>
+                <section class="footerLogo">
+                    <img src="img/logo/nateb-logo-light.png" alt="">
+                </section>
 
-                <ul>
+                <ul class="underLogo">
                     <li>
                         <span class="lnr lnr-map-marker"> 379 5th Ave Rondebosch CT 7700</span></li>
                     <li>
@@ -232,16 +245,18 @@
                 <section class="footer-sub-heading">SHOP</section>
 
                 <ul>
-                    <li>MEN</li>
-                    <li>WOMEN</li>
-                    <li>LOOKBOOK</li>
-                    <li>SUPPORT</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Lookbook</li>
+                    <li>Support</li>
                 </ul>
             </section>
             <section>
                 <section class="footer-sub-heading">INSTAGRAM</section>
 
                 <section class="widget-container">
+                    <section class="widget"></section>
+                    <section class="widget"></section>
                     <section class="widget"></section>
                     <section class="widget"></section>
                     <section class="widget"></section>
