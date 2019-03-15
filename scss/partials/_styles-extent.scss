@@ -50,6 +50,33 @@
     background-color: #666666;
 }
 
+.shoe {
+    background: url(../img/products/reebok-shoe.jfif);
+    background-position: center;
+    // background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // position: relative;
+}
+
+.tights {
+    background: url(../img/products/tights.jpg);
+    background-position: center;
+    // background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // position: relative;
+}
+
+.gloves {
+    background: url(../img/products/gloves.jfif);
+    background-position: center;
+    // background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // position: relative; 
+}
+
 .price {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
@@ -67,6 +94,24 @@
     width: 570px;
     height: 370px;
     background-color: #666666;
+}
+
+.collection-men {
+    background: url(../img/products/collection-men.jpg);
+    background-position: center;
+    // background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // position: relative; 
+}
+
+.collection-women {
+    background: url(../img/products/collection-women.jpg);
+    background-position: center;
+    // background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // position: relative; 
 }
 
 // Extra Item section
@@ -174,7 +219,7 @@
 }
 
 .logoDark {
-    height: 50px;
+    height: 40px;
     float: left;
     padding-left: 50px;
 }
