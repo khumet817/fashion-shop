@@ -312,6 +312,10 @@ input {
   width: 100%;
   height: 50px;
   background: #ffffff; }
+  .topnav a {
+    color: black;
+    margin: 0;
+    padding: 0; }
   .topnav ul {
     padding: 20px 0; }
     .topnav ul li {
@@ -423,6 +427,75 @@ input {
 
 .tradingHours {
   text-align: center; }
+
+.blog-social-media {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #666666;
+  border-bottom: solid 1px #e6e6e6; }
+  .blog-social-media ul {
+    padding: 20px 0; }
+
+.blog-articles-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center; }
+
+.blog-post-container {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  text-align: left; }
+
+.blog-post-img-placeholder {
+  background: #999999;
+  width: 100%;
+  height: 100px; }
+
+.blog-post-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  color: #333333; }
+
+.blog-post-date {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: normal;
+  color: #999999; }
+
+.blog-post-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #666666; }
+
+.blog-post-read-more {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #706259; }
 
 .main-footer {
   background-color: #d7d7d7;
