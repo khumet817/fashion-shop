@@ -379,25 +379,10 @@
     }
 }
 
-.blog-articles-container {
-    display: grid;
-    grid-gap: 10px;
-
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-}
-
-.blog-post-container {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto;
-
-    text-align: left;
-}
-
 .blog-post-img-placeholder {
     background: #999999;
     width: 100%;
-    height: 100px;
+    height: 300px;
 }
 
 .blog-post-title {
@@ -420,6 +405,7 @@
     line-height: 3.2;
     letter-spacing: normal;
     color: #999999;
+    border-bottom: solid 1px #6666;
 }
 
 .blog-post-description {
