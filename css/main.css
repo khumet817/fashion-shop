@@ -25,6 +25,19 @@
   .button-extraExtra :hover {
     opacity: 0.6; }
 
+.button-mail {
+  background-color: #a88d7b;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 10px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s; }
+  .button-mail :hover {
+    opacity: 0.6; }
+
 * {
   scroll-behavior: smooth; }
 
@@ -131,6 +144,12 @@ ul {
 li {
   display: inline;
   padding: 0 5px; }
+
+form {
+  padding: 30px 0; }
+
+input {
+  width: 49%; }
 
 .home-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home/home.gif");
@@ -291,18 +310,18 @@ li {
 
 .topnav {
   width: 100%;
-  height: 60px;
-  background: #ffffff;
-  padding: 10px; }
+  height: 50px;
+  background: #ffffff; }
   .topnav ul {
-    padding: 10px 0; }
+    padding: 20px 0; }
     .topnav ul li {
       padding: 0 10px; }
 
 .logoDark {
-  height: 40px;
+  height: 50px;
   float: left;
-  padding-left: 50px; }
+  padding-top: 5px;
+  padding-left: 200px; }
 
 .hero {
   background: #666666;
@@ -343,30 +362,28 @@ li {
   padding: 20px 150px; }
 
 .who-we-are-img {
-  width: 570px;
-  height: 450px;
+  width: 100%;
+  height: 400px;
   background-color: #666666; }
 
-.who-we-are-description {
+.about-who-we-are {
   width: 570px;
-  height: 450px;
+  height: 450px; }
+
+.who-we-are-description {
   font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.67;
-  letter-spacing: normal;
   text-align: left;
   color: #666666; }
 
 .what-we-do-img {
-  width: 570px;
-  height: 450px;
+  width: 100%;
+  height: 400px;
   background-color: #666666; }
 
 .member {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 250px;
   background-color: #666666; }
 
 .role {
@@ -488,8 +505,8 @@ footer {
 .about-container {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: auto auto;
-  padding: 20px 150px; }
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px 150px; }
 
 .team-container {
   display: grid;

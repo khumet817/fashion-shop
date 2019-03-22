@@ -77,9 +77,8 @@ footer {
 .about-container {
     display: grid;
     grid-gap: 20px;
-
-    grid-template-columns: auto auto;
-    padding: 20px 150px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 150px;
 }
 
 .team-container {
