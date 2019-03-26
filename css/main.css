@@ -49,8 +49,9 @@
   .button-add-to-cart :hover {
     opacity: 0.6; }
 
-.lnr-heart {
-  float: right; }
+.lnr-heart:before {
+  float: right;
+  font-size: 20px; }
 
 * {
   scroll-behavior: smooth; }
