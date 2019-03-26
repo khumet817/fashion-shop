@@ -46,3 +46,21 @@
         opacity: 0.6;
     }
 }
+
+.button-add-to-cart {
+    background-color: #a88d7b;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 10px; 
+    transition: 0.3s;
+
+    :hover {
+        opacity: 0.6;
+    }
+}
+
+.lnr-heart {
+    float: right;
+}
