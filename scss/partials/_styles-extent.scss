@@ -477,9 +477,19 @@
     color: #666666;
 }
 
-// .shop-product-description {
+.pagination {
+    text-align: right;
+    padding: 20px 150px;
 
-// }
+    a {
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        padding: 0 10px;
+        color: #999999;
+        text-align: center;
+    }
+}
 // ---------------------------------------------------------------------------------------------------------------------------
 // Footer Section
 .main-footer {

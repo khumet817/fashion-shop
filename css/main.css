@@ -53,6 +53,10 @@
   float: right;
   font-size: 20px; }
 
+.lnr-chevron-right:before {
+  content: "\e876";
+  font-size: 12px; }
+
 * {
   scroll-behavior: smooth; }
 
@@ -541,6 +545,17 @@ input {
   letter-spacing: normal;
   text-align: left;
   color: #666666; }
+
+.pagination {
+  text-align: right;
+  padding: 20px 150px; }
+  .pagination a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding: 0 10px;
+    color: #999999;
+    text-align: center; }
 
 .main-footer {
   background-color: #d7d7d7;

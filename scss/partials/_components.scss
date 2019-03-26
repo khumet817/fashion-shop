@@ -65,3 +65,8 @@
     float: right;
     font-size: 20px;
 }
+
+.lnr-chevron-right:before {
+    content: "\e876";
+    font-size: 12px;
+}
