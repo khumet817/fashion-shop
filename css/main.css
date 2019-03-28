@@ -662,4 +662,46 @@ footer {
   padding: 20px 150px;
   grid-template-columns: 300px auto; }
 
+@media screen and (max-width: 1024px) {
+  header {
+    font-size: 10px;
+    padding: 5px;
+    height: 15px; }
+
+  .home-hero {
+    height: 96vh; }
+
+  nav {
+    font-size: 10px;
+    padding: 20px 0; }
+    nav a {
+      padding: 0 20px; }
+
+  .hero-text {
+    top: 55%; }
+
+  h1 {
+    font-size: 35px; }
+
+  h2 {
+    font-size: 30px; }
+
+  .product {
+    width: 220px;
+    height: 200px; }
+
+  .collection {
+    width: 400px;
+    height: 200px;
+    transition: 0.3s; }
+
+  .blogImg {
+    width: 400px;
+    height: 370px;
+    background-color: #666666; }
+
+  .blogDescription {
+    width: 400px;
+    height: 370px; } }
+
 /*# sourceMappingURL=main.css.map */

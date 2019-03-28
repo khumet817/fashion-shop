@@ -1,0 +1,70 @@
+// Responsive Design
+
+@media screen and (max-width:1024px) {
+    // LAPTOP
+
+    // =======
+    // HEADER
+    // =======
+    header {
+        font-size: 10px;
+        padding: 5px;
+        height: 15px;
+    }
+
+    // =====================================================================
+    // HOME PAGE
+
+    // Hero
+    .home-hero {
+        height: 96vh;
+    }
+
+    nav {
+        font-size: 10px;
+        padding: 20px 0;
+
+        a {
+            padding: 0 20px;
+        }
+    }
+
+    .hero-text {
+        top: 55%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    // Featured Products
+    h2 {
+        font-size: 30px;
+    }
+
+    .product {
+        width: 220px;
+        height: 200px;
+    }
+
+    // New Collection
+    .collection {
+        width: 400px;
+        height: 200px;
+        transition: 0.3s;
+    }
+
+    // Our Blog Post
+    .blogImg {
+        width: 400px;
+        height: 370px;
+        background-color: #666666;
+    }
+
+    .blogDescription {
+        width: 400px;
+        height: 370px;
+    }
+
+    // =====================================================================
+}
