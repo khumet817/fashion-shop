@@ -23,4 +23,28 @@ At the end the shop should be functional and perform the duties of an online sho
 
 - HTML
 
+### Other Technologies Used
+
+Technologies and Tools Used:
+-
+
+Languages:
+
+- HTML
+- CSS
+- SASS
+
+Tools:
+
+- Visual Studio Code
+- Gitbash
+- 
+
+
+### Changelog
+
+## Contributors
+
+Tabile Khume    - 2019
+
 README FILE TO BE CONTINUED...
