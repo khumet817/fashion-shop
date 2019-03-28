@@ -47,24 +47,50 @@
         height: 200px;
     }
 
+    h3 {
+        font-size: 15px;
+    }
+
+    .price {
+        font-size: 12px;
+    }
+
     // New Collection
     .collection {
-        width: 400px;
-        height: 200px;
-        transition: 0.3s;
+        width: 350px;
+        height: 220px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    // Extra Clothing Item
+    .extraExtra-container {
+        padding: 30px;
     }
 
     // Our Blog Post
     .blogImg {
-        width: 400px;
-        height: 370px;
-        background-color: #666666;
+        width: 360px;
+        height: 300px;
     }
 
     .blogDescription {
-        width: 400px;
-        height: 370px;
+        width: 360px;
+        height: 300px;
     }
 
+    h5 {
+        font-size: 20px;
+    }
+
+    .postDate {
+        font-size: 12px;
+    }
+
+    .post p {
+        font-size: 9.5px;
+    }
     // =====================================================================
 }
