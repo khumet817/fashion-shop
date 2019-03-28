@@ -21,7 +21,11 @@ At the end the shop should be functional and perform the duties of an online sho
 
 ## Prevalent Technologies Used
 
+```
+
 - HTML
+
+```
 
 ### Other Technologies Used
 
@@ -30,16 +34,21 @@ Technologies and Tools Used:
 
 Languages:
 
+```
+
 - HTML
 - CSS
 - SASS
 
+```
+
 Tools:
 
+```
 - Visual Studio Code
 - Gitbash
-- 
 
+```
 
 ### Changelog
 
