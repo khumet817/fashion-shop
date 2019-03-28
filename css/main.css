@@ -6,6 +6,7 @@
   text-align: center;
   font-size: 10px;
   margin: 4px 2px;
+  margin-bottom: 50px;
   opacity: 1;
   transition: 0.3s;
   border-radius: 4em; }
@@ -20,6 +21,7 @@
   text-align: center;
   font-size: 10px;
   margin: 4px 2px;
+  margin-top: 20px;
   opacity: 1;
   transition: 0.3s; }
   .button-extraExtra :hover {
@@ -48,6 +50,10 @@
   transition: 0.3s; }
   .button-add-to-cart :hover {
     opacity: 0.6; }
+
+.lnr-chevron-down:before {
+  content: "\e874";
+  font-size: x-large; }
 
 .lnr-heart:before {
   float: right;
@@ -159,6 +165,10 @@ h5 {
   color: #333333;
   margin: 0; }
 
+a {
+  color: white;
+  text-decoration: none; }
+
 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px; }
@@ -201,7 +211,8 @@ input {
 .home-text {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0;
-  font-size: 15px; }
+  font-size: 15px;
+  margin-bottom: 50px; }
 
 .lineHeading {
   width: 30px;
@@ -234,18 +245,6 @@ input {
   transition: 0.3s; }
   .collection :hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
-.collection-men {
-  background: url(../img/products/collection-men.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.collection-women {
-  background: url(../img/products/collection-women.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
 
 .extraExtra-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/products/adidas-hoodie.gif");
@@ -599,7 +598,8 @@ header {
   grid-gap: 5px;
   grid-template-columns: 620px auto;
   background-color: #666666;
-  padding: 90px; }
+  padding: 90px;
+  padding-bottom: 40px; }
 
 .blog-container {
   display: grid;

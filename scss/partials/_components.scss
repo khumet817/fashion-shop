@@ -6,6 +6,7 @@
     text-align: center;
     font-size: 10px;
     margin: 4px 2px;
+    margin-bottom: 50px;
     opacity: 1;
     transition: 0.3s;
     border-radius: 4em;
@@ -23,6 +24,7 @@
     text-align: center;
     font-size: 10px;
     margin: 4px 2px;
+    margin-top: 20px;
     opacity: 1;
     transition: 0.3s;
 
@@ -59,6 +61,11 @@
     :hover {
         opacity: 0.6;
     }
+}
+
+.lnr-chevron-down:before {
+    content: "\e874";
+    font-size: x-large;
 }
 
 .lnr-heart:before {

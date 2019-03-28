@@ -31,6 +31,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     padding: 0;
     font-size: 15px;
+    margin-bottom: 50px;
 }
 
 // Main Section
@@ -75,24 +76,6 @@
     :hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-}
-
-.collection-men {
-    background: url(../img/products/collection-men.jpg);
-    background-position: center;
-    // background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // position: relative; 
-}
-
-.collection-women {
-    background: url(../img/products/collection-women.jpg);
-    background-position: center;
-    // background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // position: relative; 
 }
 
 // Extra Item section
