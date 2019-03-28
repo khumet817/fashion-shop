@@ -721,6 +721,18 @@ footer {
     font-size: 12px; }
 
   .post p {
-    font-size: 9.5px; } }
+    font-size: 9.5px; }
+
+  .footerLogo {
+    width: 150px; }
+
+  footer ul li {
+    font-size: 13px; }
+
+  .footer-info {
+    grid-template-columns: 250px 100px 100px auto; }
+
+  .widget {
+    height: 55px; } }
 
 /*# sourceMappingURL=main.css.map */
