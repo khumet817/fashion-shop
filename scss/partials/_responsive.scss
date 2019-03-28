@@ -114,3 +114,82 @@
         height: 55px;
     }
 }
+
+@media screen and (max-width:768px) {
+    // TABLET LANDSCAPE
+
+    // ========
+    // HEADER
+    // ========
+    header {
+        font-size: 8.5px;
+    }
+    // ==============================================================================================
+    // HOME PAGE
+    
+    // Hero
+    nav {
+        font-size: 9.5px;
+        padding: 20px 0;
+        
+        a {
+            padding: 0 13px;
+        }
+    }
+
+    .logoName {
+        padding: 0 20px;
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 9px;
+    }
+
+    .buttonLookbook {
+        padding: 10px 25px;
+        font-size: 8px;
+    }
+
+    .lnr-chevron-down:before {
+        font-size: medium;
+    }
+
+    // Featured Products
+    .product {
+        width: 150px;
+        height: 200px;
+    }
+
+    // New Collection
+    .collection {
+        width: 190px;
+        height: 220px;
+    }
+
+    // Our Blog Post
+    .blogImg {
+        width: 200px;
+        height: 300px;
+    }
+
+    .blogDescription {
+        width: 200px;
+        height: 300px;
+    }
+
+    // ==============================================================================================
+    // ========
+    // FOOTER
+    // ========
+    .footer-info {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 50px 150px;
+    }
+}

@@ -734,5 +734,53 @@ footer {
 
   .widget {
     height: 55px; } }
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 8.5px; }
+
+  nav {
+    font-size: 9.5px;
+    padding: 20px 0; }
+    nav a {
+      padding: 0 13px; }
+
+  .logoName {
+    padding: 0 20px;
+    font-size: 25px; }
+
+  h1 {
+    font-size: 24px; }
+
+  .hero-text p {
+    font-size: 9px; }
+
+  .buttonLookbook {
+    padding: 10px 25px;
+    font-size: 8px; }
+
+  .lnr-chevron-down:before {
+    font-size: medium; }
+
+  .product {
+    width: 150px;
+    height: 200px; }
+
+  .collection {
+    width: 190px;
+    height: 220px; }
+
+  .blogImg {
+    width: 200px;
+    height: 300px; }
+
+  .blogDescription {
+    width: 200px;
+    height: 300px; }
+
+  .footer-info {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px 150px; } }
 
 /*# sourceMappingURL=main.css.map */
