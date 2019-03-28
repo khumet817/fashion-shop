@@ -47,34 +47,11 @@
 .product {
     width: 360px;
     height: 310px;
-    background-color: #666666;
-}
+    transition: 0.3s;
 
-.shoe {
-    background: url(../img/products/reebok-shoe.jfif);
-    background-position: center;
-    // background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // position: relative;
-}
-
-.tights {
-    background: url(../img/products/tights.jpg);
-    background-position: center;
-    // background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // position: relative;
-}
-
-.gloves {
-    background: url(../img/products/gloves.jfif);
-    background-position: center;
-    // background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // position: relative; 
+    :hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
 .price {
@@ -93,7 +70,11 @@
 .collection {
     width: 570px;
     height: 370px;
-    background-color: #666666;
+    transition: 0.3s;
+
+    :hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
 .collection-men {

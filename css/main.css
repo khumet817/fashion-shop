@@ -93,6 +93,12 @@ footer {
       display: list-item;
       color: #999999;
       padding: 10px 0; }
+  footer a {
+    color: #999999;
+    text-decoration: none; }
+    footer a :hover {
+      color: white;
+      text-decoration: underline; }
 
 h1 {
   font-family: 'Dosis', sans-serif;
@@ -127,6 +133,7 @@ h3 {
   line-height: 2.4;
   letter-spacing: normal;
   text-align: center;
+  margin-bottom: 0;
   color: #333333; }
 
 h4 {
@@ -206,25 +213,9 @@ input {
 .product {
   width: 360px;
   height: 310px;
-  background-color: #666666; }
-
-.shoe {
-  background: url(../img/products/reebok-shoe.jfif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.tights {
-  background: url(../img/products/tights.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.gloves {
-  background: url(../img/products/gloves.jfif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  transition: 0.3s; }
+  .product :hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .price {
   font-family: 'Source Sans Pro', sans-serif;
@@ -240,7 +231,9 @@ input {
 .collection {
   width: 570px;
   height: 370px;
-  background-color: #666666; }
+  transition: 0.3s; }
+  .collection :hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .collection-men {
   background: url(../img/products/collection-men.jpg);
