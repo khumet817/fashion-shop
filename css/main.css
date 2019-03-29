@@ -376,6 +376,13 @@ input {
 .other-main {
   padding: 20px 150px; }
 
+.about-hero {
+  background: url(../img/hero/about-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 31%;
+  height: 445px; }
+
 .who-we-are-img {
   width: 100%;
   height: 400px;
@@ -389,7 +396,8 @@ input {
   font-size: 15px;
   line-height: 1.67;
   text-align: left;
-  color: #666666; }
+  color: #666666;
+  padding: 20px 0; }
 
 .what-we-do-img {
   width: 100%;
@@ -632,7 +640,7 @@ footer {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
-  padding: 30px 150px; }
+  padding: 50px 150px; }
 
 .team-container {
   display: grid;
@@ -761,26 +769,73 @@ footer {
   .lnr-chevron-down:before {
     font-size: medium; }
 
+  h2 {
+    font-size: 25px; }
+
+  .product-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 50px; }
+
   .product {
-    width: 150px;
+    width: 100%;
     height: 200px; }
 
+  .collection-container {
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 50px; }
+
   .collection {
-    width: 190px;
+    width: 100%;
     height: 220px; }
 
+  h4 {
+    font-size: 15px; }
+
+  .extraExtra-container {
+    grid-template-columns: 1fr; }
+
+  .description {
+    font-size: 11px; }
+
+  .blog-container {
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 50px; }
+
   .blogImg {
-    width: 200px;
+    width: 100%;
     height: 300px; }
 
   .blogDescription {
-    width: 200px;
-    height: 300px; }
+    width: 100%;
+    height: 250px; }
+
+  h5 {
+    font-size: 18px; }
+
+  .postDate {
+    font-size: 10px; }
+
+  .post p {
+    font-size: 9px; }
 
   .footer-info {
-    display: grid;
-    grid-gap: 10px;
     grid-template-columns: auto auto auto auto;
-    padding: 50px 150px; } }
+    padding: 50px 50px; }
+
+  .footer-info {
+    grid-template-columns: auto auto auto auto;
+    padding: 50px 50px; }
+
+  footer ul li {
+    font-size: 10px; }
+
+  .underLogo {
+    padding: 10px 18px;
+    padding-right: 0; }
+
+  .widget {
+    height: 35px; } }
 
 /*# sourceMappingURL=main.css.map */

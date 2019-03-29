@@ -160,26 +160,72 @@
     }
 
     // Featured Products
+    h2 {
+        font-size: 25px;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px 50px;
+    }
+
     .product {
-        width: 150px;
+        width: 100%;
         height: 200px;
     }
 
     // New Collection
+    .collection-container {
+        grid-gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 50px;
+    }
+
     .collection {
-        width: 190px;
+        width: 100%;
         height: 220px;
     }
 
+    h4 {
+        font-size: 15px;
+    }
+
+    // Extra Clothing Item
+    .extraExtra-container {
+        grid-template-columns: 1fr;
+    }
+
+    .description {
+        font-size: 11px;
+    }
+
     // Our Blog Post
+    .blog-container {
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 50px;
+    }
+
     .blogImg {
-        width: 200px;
+        width: 100%;
         height: 300px;
     }
 
     .blogDescription {
-        width: 200px;
-        height: 300px;
+        width: 100%;
+        height: 250px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .postDate {
+        font-size: 10px;
+    }
+
+    .post p {
+        font-size: 9px;
     }
 
     // ==============================================================================================
@@ -187,9 +233,25 @@
     // FOOTER
     // ========
     .footer-info {
-        display: grid;
-        grid-gap: 10px;
         grid-template-columns: auto auto auto auto;
-        padding: 50px 150px;
+        padding: 50px 50px;
+    }
+
+    .footer-info {
+        grid-template-columns: auto auto auto auto;
+        padding: 50px 50px;
+    }
+
+    footer ul li {
+        font-size: 10px;
+    }
+
+    .underLogo {
+        padding: 10px 18px;
+        padding-right: 0;
+    }
+
+    .widget {
+        height: 35px;
     }
 }
