@@ -47,7 +47,8 @@
   padding: 16px 32px;
   text-align: center;
   font-size: 10px;
-  transition: 0.3s; }
+  transition: 0.3s;
+  transform: translateY(80px); }
   .button-add-to-cart :hover {
     opacity: 0.6; }
 
@@ -744,8 +745,8 @@ footer {
 
 .shop-product-container {
   display: grid;
-  grid-gap: 10px;
-  padding: 20px 150px;
+  grid-gap: 30px;
+  padding: 50px 150px;
   grid-template-columns: 300px auto; }
 
 @media screen and (max-width: 1024px) {
