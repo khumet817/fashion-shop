@@ -328,7 +328,8 @@ input {
     margin: 0;
     padding: 0; }
   .topnav ul {
-    padding: 20px 0; }
+    padding: 20px 0;
+    transform: translate(105px); }
     .topnav ul li {
       padding: 0 10px; }
 
@@ -446,6 +447,13 @@ input {
 
 .tradingHours {
   text-align: center; }
+
+.blog-hero {
+  background: url(../img/hero/blog-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 35%;
+  height: 445px; }
 
 .blog-social-media {
   font-family: 'Source Sans Pro', sans-serif;
