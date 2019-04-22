@@ -1,0 +1,31 @@
+// ==================
+// RESPONSIVE DESIGN
+// ==================
+
+// TABLET
+@media screen and (max-width: 768px) {
+    .leftHeader {
+        left: 5vw;
+    }
+    
+    .rightHeader {
+        right: 5vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .leftHeader {
+        left: 0;
+    }
+    
+    .rightHeader {
+        right: 0;
+    }
+}
+
+// MOBILE
+@media screen and (max-width: 425px) {
+    header {
+        font-size: .5em;
+    }
+}
