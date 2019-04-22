@@ -9,13 +9,12 @@ body {
 }
 
 header {
-    background: #2d2827;
-    color: #999999;
-    height: 20px;
+    background: $grey-dark;
+    color: $grey-light;
+    height: 5vh;
     text-align: center;
     font-size: 12px;
-    font-family: 'Dosis', sans-serif;
-    padding: 10px;
+    font-family: $Dosis;
 }
 
 nav {

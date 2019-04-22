@@ -1,4 +1,17 @@
-// Home Section Styles
+// ==========
+// HOME PAGE 
+// ==========
+
+// HEADER
+.leftHeader {
+    position: absolute;
+    left: 2vw;
+}
+
+.rightHeader {
+    position: absolute;
+    right: 2vw;
+}
 
 // HERO
 .home-hero {
@@ -13,146 +26,145 @@
 }
 
 
-.logoName {
-    font-family: 'Dosis', sans-serif;
-    // height: 55px;
-    padding: 0 30px;
+// .logoName {
+//     font-family: 'Dosis', sans-serif;
+//     padding: 0 30px;
 
-    font-size: 30px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    text-align: left;
-    color: #fffefe;
-}
+//     font-size: 30px;
+//     font-style: normal;
+//     font-stretch: normal;
+//     line-height: normal;
+//     letter-spacing: 1.5px;
+//     text-align: left;
+//     color: #fffefe;
+// }
 
-.home-text {
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 0;
-    font-size: 15px;
-    margin-bottom: 50px;
-}
+// .home-text {
+//     font-family: 'Source Sans Pro', sans-serif;
+//     padding: 0;
+//     font-size: 15px;
+//     margin-bottom: 50px;
+// }
 
 // Main Section
-.lineHeading {
-    width: 30px;
-    background: #a88d7b;
-}
+// .lineHeading {
+//     width: 30px;
+//     background: #a88d7b;
+// }
 
 // Product Section Styles
-.myProducts {
-    background: #f5f5f5;
-}
+// .myProducts {
+//     background: #f5f5f5;
+// }
 
-.product {
-    width: 360px;
-    height: 310px;
-    transition: 0.3s;
+// .product {
+//     width: 360px;
+//     height: 310px;
+//     transition: 0.3s;
 
-    :hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-}
+//     :hover {
+//         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+//     }
+// }
 
-.price {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 3.2;
-    letter-spacing: normal;
-    text-align: center;
-    color: #999999;
-}
+// .price {
+//     font-family: 'Source Sans Pro', sans-serif;
+//     font-size: 15px;
+//     font-weight: 600;
+//     font-style: normal;
+//     font-stretch: normal;
+//     line-height: 3.2;
+//     letter-spacing: normal;
+//     text-align: center;
+//     color: #999999;
+// }
 
 // Collection Section Styles
-.collection {
-    width: 570px;
-    height: 370px;
-    transition: 0.3s;
+// .collection {
+//     width: 570px;
+//     height: 370px;
+//     transition: 0.3s;
 
-    :hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-}
+//     :hover {
+//         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+//     }
+// }
 
 // Extra Item section
-.extraExtra-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/products/adidas-hoodie.gif");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
+// .extraExtra-container {
+//     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/products/adidas-hoodie.gif");
+//     background-position: center;
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     position: relative;
+// }
 
-.extraExtra {
-    text-align: center;
-}
+// .extraExtra {
+//     text-align: center;
+// }
 
-.description {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.6;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-}
+// .description {
+//     font-family: 'Source Sans Pro', sans-serif;
+//     font-size: 15px;
+//     font-weight: normal;
+//     font-style: normal;
+//     font-stretch: normal;
+//     line-height: 1.6;
+//     letter-spacing: normal;
+//     text-align: center;
+//     color: #ffffff;
+// }
 
 // Our Blog Section 
-.blogImg {
-    width: 550px;
-    height: 370px;
-    background-color: #666666;
-}
+// .blogImg {
+//     width: 550px;
+//     height: 370px;
+//     background-color: #666666;
+// }
 
-.blogDescription {
-    width: 570px;
-    height: 370px;   
-}
+// .blogDescription {
+//     width: 570px;
+//     height: 370px;   
+// }
 
-.postDate {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 3.2;
-    letter-spacing: normal;
-    color: #999999;
-}
+// .postDate {
+//     font-family: 'Source Sans Pro', sans-serif;
+//     font-size: 15px;
+//     font-weight: 600;
+//     font-style: normal;
+//     font-stretch: normal;
+//     line-height: 3.2;
+//     letter-spacing: normal;
+//     color: #999999;
+// }
 
-.post {
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: left;
-    color: #666666;
-}
+// .post {
+//     font-size: 15px;
+//     font-weight: normal;
+//     font-style: normal;
+//     font-stretch: normal;
+//     line-height: 1.67;
+//     letter-spacing: normal;
+//     text-align: left;
+//     color: #666666;
+// }
 
-.readMore {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.92;
-    letter-spacing: 2.5px;
+// .readMore {
+//     font-family: 'Source Sans Pro', sans-serif;
+//     font-size: 20px;
+//     font-weight: normal;
+//     font-style: normal;
+//     font-stretch: normal;
+//     line-height: 1.92;
+//     letter-spacing: 2.5px;
 
-    a {
-        text-decoration: none;
-        color: #a88d7b;
-        font-size: 10px;
-    }
-}
+//     a {
+//         text-decoration: none;
+//         color: #a88d7b;
+//         font-size: 10px;
+//     }
+// }
 
 // ----------------------------------------------------------------------------------------------------------------------------
 // Header, Hero, Main & Nav with logo for other pages

@@ -1,15 +1,10 @@
-header {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
 // Product Section Styles
 .product-container {
     display: grid;
     grid-gap: 1px;
 
     grid-template-columns: auto auto auto;
-    padding: 20px 150px;
+    padding: 20px 0;
 }
 
 // New Collection Section Styles
@@ -18,7 +13,7 @@ header {
     grid-gap: 20px;
 
     grid-template-columns: auto auto;
-    padding: 20px 150px;
+    // padding: 20px 150px;
 }
 
 // Extra Item Section
@@ -37,7 +32,7 @@ header {
     grid-gap: 20px;
 
     grid-template-columns: auto auto;
-    padding: 20px 150px;
+    // padding: 20px 150px;
 }
 
 // Footer
