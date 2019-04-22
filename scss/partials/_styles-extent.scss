@@ -21,23 +21,47 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    color: #fffefe;
+    color: $white-text;
     height: 94vh;
 }
 
+// NAVBAR IN HERO
+.search,
+.left-nav-links,
+.right-nav-links,
+.cart {
+    position: absolute;
+}
 
-// .logoName {
-//     font-family: 'Dosis', sans-serif;
-//     padding: 0 30px;
 
-//     font-size: 30px;
-//     font-style: normal;
-//     font-stretch: normal;
-//     line-height: normal;
-//     letter-spacing: 1.5px;
-//     text-align: left;
-//     color: #fffefe;
-// }
+.search {
+    left: 1vw;
+}
+
+.left-nav-links {
+    left: 5vw;
+}
+
+.logoName {
+    font-family: $Dosis;
+    padding: 0 30px;
+
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #fffefe;
+}
+
+.right-nav-links {
+    right: 5vw;
+}
+
+.cart {
+    right: 1vw;
+}
 
 // .home-text {
 //     font-family: 'Source Sans Pro', sans-serif;

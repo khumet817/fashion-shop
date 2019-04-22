@@ -53,7 +53,7 @@ header {
     padding: 0; }
 
 nav {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 15px;
   text-align: center;
   padding: 25px 0; }
@@ -194,6 +194,35 @@ textarea {
   position: relative;
   color: #fffefe;
   height: 94vh; }
+
+.search,
+.left-nav-links,
+.right-nav-links,
+.cart {
+  position: absolute; }
+
+.search {
+  left: 1vw; }
+
+.left-nav-links {
+  left: 5vw; }
+
+.logoName {
+  font-family: "Dosis", sans-serif;
+  padding: 0 30px;
+  font-size: 30px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #fffefe; }
+
+.right-nav-links {
+  right: 5vw; }
+
+.cart {
+  right: 1vw; }
 
 .other-header {
   background-color: #eeeeee;
