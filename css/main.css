@@ -44,9 +44,10 @@ body {
 header {
   background: #2d2827;
   color: #999999;
-  height: 5vh;
+  height: 2vh;
   text-align: center;
-  font-size: 12px;
+  font-size: .7em;
+  padding: 1em 0;
   font-family: "Dosis", sans-serif; }
 
 nav {
@@ -190,7 +191,7 @@ textarea {
   background-size: cover;
   position: relative;
   color: #fffefe;
-  height: 95vh; }
+  height: 94vh; }
 
 .other-header {
   background-color: #eeeeee;
