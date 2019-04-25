@@ -1,38 +1,34 @@
-// Product Section Styles
-.product-container {
+.product-container,
+.collection-container,
+.blog-container,
+.about-container,
+.team-container {
     display: grid;
-    grid-gap: 1px;
-
-    grid-template-columns: auto auto auto;
-    padding: 20px 0;
+    grid-gap: 1em;
+    padding: 3em 0;
 }
 
-// New Collection Section Styles
-.collection-container {
-    display: grid;
-    grid-gap: 20px;
+// Product, Collection and Blog Section Styles
+.product-container {
+    grid-template-columns: repeat(3, 1fr);
+}
 
-    grid-template-columns: auto auto;
-    // padding: 20px 150px;
+.collection-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog-container {
+    grid-template-columns: repeat(2, 1fr);
 }
 
 // Extra Item Section
-.extraExtra-container {
+.extra-clothing-item-container {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 620px auto;
     background-color: #666666;
     padding: 90px;
     padding-bottom: 40px;
-}
-
-// Our Blog Section
-.blog-container {
-    display: grid;
-    grid-gap: 20px;
-
-    grid-template-columns: auto auto;
-    // padding: 20px 150px;
 }
 
 // Footer
@@ -71,18 +67,11 @@ footer {
 // ABOUT PAGE
 
 .about-container {
-    display: grid;
-    grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px 150px;
 }
 
 .team-container {
-    display: grid;
-    grid-gap: 10px;
-
-    grid-template-columns: auto auto auto auto;
-    padding: 50px 150px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 // -----------------------------------------------------------------------------------------------------------

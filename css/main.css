@@ -1,3 +1,17 @@
+.button-extraExtra {
+  background-color: #a88d7b;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 10px;
+  margin: 4px 2px;
+  margin-top: 20px;
+  opacity: 1;
+  transition: 0.3s; }
+  .button-extraExtra :hover {
+    opacity: 0.6; }
+
 .button-mail {
   background-color: #a88d7b;
   border: none;
@@ -22,6 +36,15 @@
   transform: translateY(80px); }
   .button-add-to-cart :hover {
     opacity: 0.6; }
+
+.icon {
+  text-align: center;
+  font-size: 1em;
+  padding: 5px 0; }
+
+.icon-in-contact {
+  font-size: 2em;
+  padding: .5em 0; }
 
 .lnr-chevron-down:before {
   content: "\e874";
@@ -55,10 +78,9 @@ header {
 nav {
   font-family: "Dosis", sans-serif;
   font-size: 15px;
-  text-align: center;
-  padding: 25px 0; }
+  padding: 2em 0; }
   nav a {
-    padding: 0 25px;
+    padding: 0 1em;
     text-decoration: none;
     color: white; }
 
@@ -103,18 +125,6 @@ h2 {
   color: #333333;
   margin-top: 0;
   padding-top: 40px; }
-
-h3 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.4;
-  letter-spacing: normal;
-  text-align: center;
-  margin-bottom: 0;
-  color: #333333; }
 
 h4 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -193,36 +203,133 @@ textarea {
   background-size: cover;
   position: relative;
   color: #fffefe;
-  height: 94vh; }
+  height: 100vh; }
 
 .search,
-.left-nav-links,
-.right-nav-links,
+.nav-links,
 .cart {
   position: absolute; }
 
 .search {
-  left: 1vw; }
+  top: 8vh;
+  left: 10vw; }
 
-.left-nav-links {
-  left: 5vw; }
+.nav-links {
+  left: 30vw;
+  text-align: center; }
 
 .logoName {
   font-family: "Dosis", sans-serif;
-  padding: 0 30px;
-  font-size: 30px;
+  padding: 0;
+  font-size: 2em;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 1.5px;
-  text-align: left;
   color: #fffefe; }
 
-.right-nav-links {
-  right: 5vw; }
-
 .cart {
-  right: 1vw; }
+  top: 8vh;
+  right: 10vw; }
+
+.lineHeading {
+  width: 30px;
+  background: #a88d7b; }
+
+.section-in-main {
+  padding: 1em 10em; }
+
+.alignment {
+  text-align: center; }
+
+.alignment-left {
+  text-align: left !important; }
+
+.heading-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  margin-bottom: 0;
+  color: #333333; }
+
+.sub-heading-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
+.featured-product-section {
+  background: #f5f5f5; }
+
+.product,
+.collection {
+  height: 310px; }
+
+.blogImg {
+  height: 400px; }
+
+.gif-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/products/adidas-hoodie.gif");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.extra-clothing-item-heading {
+  font-family: "Dosis", sans-serif;
+  font-size: 2.1em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffff; }
+
+.extra-clothing-item-description {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+.post {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666; }
+
+.readMore {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px; }
+  .readMore a {
+    text-decoration: none;
+    color: #a88d7b;
+    font-size: 10px; }
 
 .other-header {
   background-color: #eeeeee;
@@ -243,7 +350,8 @@ textarea {
     padding: 0; }
   .topnav ul {
     padding: 20px 0;
-    transform: translate(105px); }
+    position: absolute;
+    right: 15vw; }
     .topnav ul li {
       padding: 0 10px; }
 
@@ -289,7 +397,7 @@ textarea {
   color: #a8a8a8; }
 
 .other-main {
-  padding: 20px 150px; }
+  padding: 1em 10em; }
 
 .about-hero {
   background: url(../img/hero/about-hero.jpg);
@@ -299,13 +407,8 @@ textarea {
   height: 445px; }
 
 .who-we-are-img {
-  width: 100%;
   height: 400px;
   background-color: #666666; }
-
-.about-who-we-are {
-  width: 570px;
-  height: 450px; }
 
 .who-we-are-description {
   font-size: 15px;
@@ -315,37 +418,20 @@ textarea {
   padding: 20px 0; }
 
 .what-we-do-img {
-  width: 100%;
   height: 400px;
   background-color: #666666; }
 
 .member {
-  width: 100%;
   height: 250px;
   background-color: #666666; }
 
-.role {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 3.2;
-  letter-spacing: normal;
-  text-align: center;
-  color: #999999; }
-
-.icon {
-  text-align: center; }
-
 .what-we-do-description {
-  width: 570px;
-  height: 450px;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.67;
+  padding: 3em 0;
   letter-spacing: normal;
   text-align: left;
   color: #666666; }
@@ -374,11 +460,6 @@ textarea {
   font-size: 12px;
   padding: 35px;
   color: #666666; }
-
-.icon {
-  text-align: center;
-  font-size: 30px;
-  padding: 5px 0; }
 
 .contact-side-heading {
   font-family: 'Source Sans Pro', sans-serif;
@@ -555,29 +636,31 @@ textarea {
   height: 70px;
   background: #ffffff; }
 
-.product-container {
+.product-container,
+.collection-container,
+.blog-container,
+.about-container,
+.team-container {
   display: grid;
-  grid-gap: 1px;
-  grid-template-columns: auto auto auto;
-  padding: 20px 0; }
+  grid-gap: 1em;
+  padding: 3em 0; }
+
+.product-container {
+  grid-template-columns: repeat(3, 1fr); }
 
 .collection-container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: auto auto; }
+  grid-template-columns: repeat(2, 1fr); }
 
-.extraExtra-container {
+.blog-container {
+  grid-template-columns: repeat(2, 1fr); }
+
+.extra-clothing-item-container {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: 620px auto;
   background-color: #666666;
   padding: 90px;
   padding-bottom: 40px; }
-
-.blog-container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: auto auto; }
 
 footer {
   display: grid;
@@ -601,16 +684,10 @@ footer {
   grid-template-columns: auto auto auto; }
 
 .about-container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 50px 150px; }
+  grid-template-columns: repeat(2, 1fr); }
 
 .team-container {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: auto auto auto auto;
-  padding: 50px 150px; }
+  grid-template-columns: repeat(4, 1fr); }
 
 .contact-info-container {
   display: grid;
@@ -640,20 +717,69 @@ footer {
   padding: 50px 150px;
   grid-template-columns: 300px auto; }
 
+@media screen and (max-width: 1200px) {
+  .nav-links {
+    left: 25vw; } }
+@media screen and (max-width: 1000px) {
+  .nav-links {
+    left: 20vw; }
+
+  .blog-container {
+    grid-template-columns: 1fr; } }
+@media screen and (max-width: 1024px) {
+  .section-in-main {
+    padding: 1em 5em; }
+
+  .product,
+  .collection {
+    height: 250px; } }
 @media screen and (max-width: 768px) {
   .leftHeader {
     left: 5vw; }
 
   .rightHeader {
-    right: 5vw; } }
+    right: 5vw; }
+
+  .logoName {
+    font-size: 1.65em;
+    left: 40vw; }
+
+  .section-in-main {
+    padding: 1em; }
+
+  .product-container,
+  .collection-container,
+  .blog-container,
+  .about-container,
+  .team-container {
+    padding: 1em 0; }
+
+  .extra-clothing-item-container {
+    grid-template-columns: 1fr; } }
 @media screen and (max-width: 500px) {
   .leftHeader {
     left: 0; }
 
   .rightHeader {
-    right: 0; } }
+    right: 0; }
+
+  .product,
+  .collection {
+    height: 280px; }
+
+  .product-container {
+    grid-template-columns: 1fr; }
+
+  .collection-container {
+    grid-template-columns: 1fr; } }
 @media screen and (max-width: 425px) {
   header {
-    font-size: .5em; } }
+    font-size: .5em; }
+
+  h2 {
+    font-size: 25px; }
+
+  .blogImg {
+    height: 350px; } }
 
 /*# sourceMappingURL=main.css.map */

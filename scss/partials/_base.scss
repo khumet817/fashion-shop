@@ -25,11 +25,10 @@ header {
 nav {
     font-family: $Dosis;
     font-size: 15px;
-    text-align: center;
-    padding: 25px 0;
+    padding: 2em 0;
 
     a {
-        padding: 0 25px;
+        padding: 0 1em;
         text-decoration: none;
         color: white;
     }
@@ -88,19 +87,6 @@ h2 {
     
     margin-top: 0;
     padding-top: 40px;
-}
-
-h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.4;
-    letter-spacing: normal;
-    text-align: center;
-    margin-bottom: 0;
-    color: #333333;
 }
 
 h4 {
