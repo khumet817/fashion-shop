@@ -671,8 +671,12 @@ footer {
 .footer-info {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: auto 150px 150px auto;
-  padding: 50px 150px; }
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3em 10em; }
+
+.quick-links-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 .widget-container {
   display: grid;
@@ -725,14 +729,23 @@ footer {
     left: 20vw; }
 
   .blog-container {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+
+  .footer-info {
+    grid-template-columns: repeat(2, 1fr); } }
 @media screen and (max-width: 1024px) {
   .section-in-main {
     padding: 1em 5em; }
 
   .product,
   .collection {
-    height: 250px; } }
+    height: 250px; }
+
+  .about-hero {
+    height: 300px; }
+
+  .footer-info {
+    padding: 3em 5em; } }
 @media screen and (max-width: 768px) {
   .leftHeader {
     left: 5vw; }
@@ -755,6 +768,15 @@ footer {
     padding: 1em 0; }
 
   .extra-clothing-item-container {
+    grid-template-columns: 1fr; }
+
+  .hero-heading {
+    font-size: 40px; }
+
+  .team-container {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .footer-info {
     grid-template-columns: 1fr; } }
 @media screen and (max-width: 500px) {
   .leftHeader {
@@ -771,6 +793,15 @@ footer {
     grid-template-columns: 1fr; }
 
   .collection-container {
+    grid-template-columns: 1fr; }
+
+  .about-hero {
+    height: 240px; }
+
+  .about-container {
+    grid-template-columns: 1fr; }
+
+  .team-container {
     grid-template-columns: 1fr; } }
 @media screen and (max-width: 425px) {
   header {
@@ -780,6 +811,12 @@ footer {
     font-size: 25px; }
 
   .blogImg {
-    height: 350px; } }
+    height: 350px; }
+
+  .hero-heading {
+    font-size: 30px; }
+
+  .footer-info {
+    padding: 3em .5em; } }
 
 /*# sourceMappingURL=main.css.map */

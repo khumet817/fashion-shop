@@ -17,6 +17,10 @@
     .blog-container {
         grid-template-columns: 1fr;
     }
+
+    .footer-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 // LAPTOP
@@ -28,6 +32,14 @@
     .product, 
     .collection {
         height: 250px;
+    }
+
+    .about-hero {
+        height: 300px;
+    }
+
+    .footer-info {
+        padding: 3em 5em;
     }
 }
 
@@ -67,6 +79,18 @@
     .extra-clothing-item-container {
         grid-template-columns: 1fr;
     }
+
+    .hero-heading {
+        font-size: 40px;
+    }
+    
+    .team-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-info {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -90,6 +114,18 @@
     .collection-container {
         grid-template-columns: 1fr;
     }
+
+    .about-hero {
+        height: 240px;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 // MOBILE
@@ -104,5 +140,13 @@
 
     .blogImg {
         height: 350px;
-    }    
+    }
+
+    .hero-heading {
+        font-size: 30px;
+    }
+
+    .footer-info {
+        padding: 3em .5em;
+    }
 }

@@ -37,7 +37,6 @@ footer {
     grid-gap: 10px;
     height: auto;
 
-    // grid-template-columns: auto 200px 200px auto;
     grid-template-rows: auto auto;
 }
 
@@ -45,8 +44,14 @@ footer {
     display: grid;
     grid-gap: 10px;
 
-    grid-template-columns: auto 150px 150px auto;
-    padding: 50px 150px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3em 10em;
+}
+
+.quick-links-container {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .widget-container {
