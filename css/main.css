@@ -1,3 +1,18 @@
+.buttonLookbook {
+  background-color: #a88d7b;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 10px;
+  margin: 4px 2px;
+  margin-bottom: 50px;
+  opacity: 1;
+  transition: 0.3s;
+  border-radius: 4em; }
+  .buttonLookbook :hover {
+    opacity: 0.6; }
+
 .button-extraExtra {
   background-color: #a88d7b;
   border: none;
@@ -80,7 +95,7 @@ nav {
   font-size: 15px;
   padding: 2em 0; }
   nav a {
-    padding: 0 1em;
+    padding: 0;
     text-decoration: none;
     color: white; }
 
@@ -159,7 +174,8 @@ p {
 
 ul {
   list-style-type: none;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 li {
   display: inline;
@@ -221,16 +237,22 @@ textarea {
   position: absolute; }
 
 .search {
-  top: 8vh;
-  left: 10vw; }
+  left: 5vw;
+  top: 3rem; }
 
-.nav-links {
-  left: 30vw;
-  text-align: center; }
+.nav-link-options ul {
+  padding: 1em 0; }
+  .nav-link-options ul li {
+    padding: 0 1em; }
+
+.left-nav-links {
+  text-align: right; }
+
+.right-nav-links {
+  text-align: left; }
 
 .logoName {
   font-family: "Dosis", sans-serif;
-  padding: 0;
   font-size: 2em;
   font-style: normal;
   font-stretch: normal;
@@ -239,8 +261,8 @@ textarea {
   color: #fffefe; }
 
 .cart {
-  top: 8vh;
-  right: 10vw; }
+  right: 5vw;
+  top: 3rem; }
 
 .lineHeading {
   width: 30px;
@@ -650,6 +672,11 @@ textarea {
   display: grid;
   grid-template-rows: 18vh auto; }
 
+.nav-grids {
+  display: grid;
+  padding: 0 11em;
+  grid-template-columns: auto 18vw auto; }
+
 .product-container,
 .collection-container,
 .blog-container,
@@ -735,19 +762,7 @@ footer {
   padding: 50px 150px;
   grid-template-columns: 300px auto; }
 
-@media screen and (max-width: 1200px) {
-  .nav-links {
-    left: 25vw; } }
-@media screen and (max-width: 1000px) {
-  .nav-links {
-    left: 20vw; }
-
-  .blog-container {
-    grid-template-columns: 1fr; }
-
-  .footer-info {
-    grid-template-columns: repeat(2, 1fr); } }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
   .section-in-main {
     padding: 1em 5em; }
 
@@ -760,6 +775,12 @@ footer {
 
   .footer-info {
     padding: 3em 5em; } }
+@media screen and (max-width: 1000px) {
+  .blog-container {
+    grid-template-columns: 1fr; }
+
+  .footer-info {
+    grid-template-columns: repeat(2, 1fr); } }
 @media screen and (max-width: 768px) {
   .leftHeader {
     left: 5vw; }

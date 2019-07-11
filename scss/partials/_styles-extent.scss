@@ -44,18 +44,31 @@
 }
 
 .search {
-    top: 8vh;
-    left: 10vw;
+    left: 5vw;
+    top: 3rem;
 }
 
-.nav-links {
-    left: 30vw;
-    text-align: center;
+.nav-link-options {
+    ul {
+        padding: 1em 0;
+
+        li {
+            padding: 0 1em;
+        }
+    }
+}
+
+.left-nav-links {
+    text-align: right;
+}
+
+.right-nav-links {
+    text-align: left;
 }
 
 .logoName {
     font-family: $Dosis;
-    padding: 0;
+    // padding: 0;
     // left: 21vw;
 
     font-size: 2em;
@@ -67,8 +80,8 @@
 }
 
 .cart {
-    top: 8vh;
-    right: 10vw;
+    right: 5vw;
+    top: 3rem;
 }
 
 // .home-text {

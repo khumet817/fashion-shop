@@ -5,6 +5,13 @@
     grid-template-rows: 18vh auto;
 }
 
+.nav-grids {
+    display: grid;
+    padding: 0 11em;
+
+    grid-template-columns: auto 18vw auto;
+}
+
 .product-container,
 .collection-container,
 .blog-container,
