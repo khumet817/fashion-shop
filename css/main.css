@@ -205,6 +205,16 @@ textarea {
   color: #fffefe;
   height: 100vh; }
 
+.home-hero-text {
+  text-align: center;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: white;
+  padding: 0 20rem;
+  background: red; }
+
 .search,
 .nav-links,
 .cart {
@@ -635,6 +645,10 @@ textarea {
 .widget {
   height: 70px;
   background: #ffffff; }
+
+.home-hero-grids {
+  display: grid;
+  grid-template-rows: 18vh auto; }
 
 .product-container,
 .collection-container,

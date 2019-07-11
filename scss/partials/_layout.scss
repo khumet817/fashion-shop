@@ -1,3 +1,10 @@
+// Landing Page Styles
+.home-hero-grids {
+    display: grid;
+
+    grid-template-rows: 18vh auto;
+}
+
 .product-container,
 .collection-container,
 .blog-container,
